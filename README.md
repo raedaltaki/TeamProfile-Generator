@@ -70,7 +70,7 @@ THEN I exit the application, and the HTML is generated
 
   Test file: index.html in dist directory
 
-  Walkthrough Video: https://drive.google.com/file/d/
+  Walkthrough Video: https://drive.google.com/file/d/1KZjA0yO88642viyeVZonfSfantt0a_WC/view
 
 
   ## Questions
