@@ -69,6 +69,7 @@ THEN I exit the application, and the HTML is generated
   ## Tests
 
   Test file: index.html in dist directory
+  https://raedaltaki.github.io/TeamProfile-Generator/dist/index.html
 
   Walkthrough Video: https://drive.google.com/file/d/1KZjA0yO88642viyeVZonfSfantt0a_WC/view
 
