@@ -3,7 +3,7 @@ const Engineer = require('./lib/Engineer');
 const Manager = require('./lib/Manager');
 const Intern = require('./lib/Intern');
 const generateHTML= require('./src/page-template');
-const { writeFile, copyFile } = require('./utils/generate-site.js');
+const writeFile = require('./utils/generate-site.js');
 
 class Team
 {
