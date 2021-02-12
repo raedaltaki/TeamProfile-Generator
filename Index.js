@@ -20,22 +20,62 @@ class Team
             [{
                 type: 'input',
                 message: 'Please enter the team manager’s name',
-                name: 'name'
+                name: 'name',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the team manager’s name!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the team manager’s employee ID',
-                name: 'id'  
+                name: 'id',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the team manager’s employee ID!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the team manager’s email address',
-                name: 'email'  
+                name: 'email',
+                validate: input => 
+                {
+                    if (input && input.includes("@")) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter a valid email address!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the team manager’s office number',
-                name: 'officeNo'  
+                name: 'officeNo',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the team manager’s office number!');
+                      return false;
+                    }
+                }
             }])
             .then(( data ) => 
             {
@@ -87,22 +127,62 @@ class Team
             [{
                 type: 'input',
                 message: 'Please enter the engineer’s name',
-                name: 'name'
+                name: 'name',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the engineer’s name!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the engineer’s employee ID',
-                name: 'id'  
+                name: 'id',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the engineer’s employee ID!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the engineer’s email address',
-                name: 'email'  
+                name: 'email',
+                validate: input => 
+                {
+                    if (input && input.includes("@")) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter a valid email address!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the engineer’s github',
-                name: 'github'  
+                name: 'github',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the engineer’s github!');
+                      return false;
+                    }
+                }
             }])
             .then(( data ) => 
             {
@@ -120,22 +200,62 @@ class Team
             [{
                 type: 'input',
                 message: 'Please enter the intren’s name',
-                name: 'name'
+                name: 'name',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the intren’s name!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the intren’s employee ID',
-                name: 'id'  
+                name: 'id',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the intren’s employee ID!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the intren’s email address',
-                name: 'email'  
+                name: 'email',
+                validate: input => 
+                {
+                    if (input && input.includes("@")) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter a valid email address!');
+                      return false;
+                    }
+                }
             },
             {
                 type: 'input',
                 message: 'Please enter the intren’s school',
-                name: 'school'  
+                name: 'school',
+                validate: input => 
+                {
+                    if (input) 
+                    {
+                      return true;
+                    } else {
+                      console.log('You need to enter the intren’s school!');
+                      return false;
+                    }
+                } 
             }])
             .then(( data ) => 
             {
