@@ -60,6 +60,13 @@ WHEN I decide to finish building my team
 
 THEN I exit the application, and the HTML is generated
 
+Walkthrough Video: https://drive.google.com/file/d/1KZjA0yO88642viyeVZonfSfantt0a_WC/view
+
+
+
+![Image 1](./assests/images/HTML-test-sample.JPG)
+![Image 2](./assests/images/TeamProfile-Generator.gif)
+
 
   ## Contributing
 
